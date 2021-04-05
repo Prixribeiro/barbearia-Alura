@@ -113,3 +113,24 @@ footer {
     font-size: 13px;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 480px) {
+    main, .menu, footer, table, form {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .input-padrao {
+        width: 80%;
+    }
+
+    nav {
+        position: static;
+    }
+
+    
+
+}

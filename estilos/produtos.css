@@ -94,3 +94,23 @@ footer {
     font-size: 13px;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 480px) {
+    .menu, .produtos, footer {
+        width: auto;
+    }
+
+    .produtos li{
+        display: block;
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+}
